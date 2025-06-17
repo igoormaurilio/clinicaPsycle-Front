@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8080'; // ajuste se necessário
+const BASE_URL = 'https://psycle-c8dbgyaqhugahxfe.brazilsouth-01.azurewebsites.net'; // ajuste se necessário
 
 export async function getConsultas() {
   try {
