@@ -1,0 +1,152 @@
+/* Container principal */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fcfd;
+  color: #333;
+}
+
+/* Títulos */
+.dashboard-container h1 {
+  text-align: center;
+  color: #004d61;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-container h2 {
+  color: #00738c;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Botões de navegação */
+.dashboard-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-buttons button {
+  background-color: #00acc1;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.dashboard-buttons button:hover {
+  background-color: #008ba3;
+}
+
+.consultas-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.consultas-table th,
+.consultas-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.consultas-table th {
+  background-color: #e0f7fa;
+  color: #00738c;
+}
+
+.consultas-table td {
+  color: #444;
+}
+
+/* Botão de excluir */
+.delete-button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
+
+/* Mensagem quando não há ID */
+.no-id-span {
+  color: #999;
+  font-style: italic;
+}
+
+/* Formulário de agendamento */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+}
+
+.form-container label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-container input,
+.form-container select {
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-container button {
+  align-self: flex-start;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #43a047;
+}
+
+/* Mensagens */
+.loading-message,
+.error-message {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.loading-message {
+  color: #00738c;
+}
+
+.error-message {
+  color: red;
+}
